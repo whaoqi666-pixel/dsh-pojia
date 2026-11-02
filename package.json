@@ -1,0 +1,25 @@
+{
+  "name": "dsh-pojia",
+  "version": "3.0.0",
+  "private": true,
+  "description": "破甲：内容检索工具 + 类目授权人格 + 拒绝应答重做 + 模型路由，四层同时生效",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
