@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4453"/>
+      <stop offset="1" stop-color="#1b2029"/>
+    </linearGradient>
+    <linearGradient id="crack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a3d"/>
+      <stop offset="0.55" stop-color="#ff3d5a"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 3 7 12v20c0 14 10.5 24.5 25 29 14.5-4.5 25-15 25-29V12L32 3z" fill="url(#plate)" stroke="#59637a" stroke-width="2"/>
+  <path d="M32 10.5 13.5 17.4v14.2c0 11 7.9 19.6 18.5 23.4 10.6-3.8 18.5-12.4 18.5-23.4V17.4L32 10.5z" fill="#0f131a" opacity="0.55"/>
+  <path d="M33.4 12.6 26 29.4l7.2 1.1-4.6 13 4.4-1.3 6.2-15.2-7-1.2 5.6-12.4-4.4-0.8z" fill="url(#crack)"/>
+  <path d="M33.4 12.6 26 29.4l7.2 1.1-4.6 13" fill="none" stroke="#ff6a3d" stroke-width="0.8" opacity="0.85"/>
+  <path d="M40.2 25.3 46 23.1M23.8 34.6 18 36.2M36.6 41.8 41 45.4" fill="none" stroke="#ff3d5a" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+</svg>
