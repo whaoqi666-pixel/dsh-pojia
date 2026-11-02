@@ -1,0 +1,12 @@
+# dsh-pojia bundle patch
+# 事件/工具注册式插件：模块级不写 export inject，
+# 由 apply 内的 ctx.inject(['tools'], ...) 处理可选依赖，
+# 避免入口 pending 拖垮整棵插件树。
+- insert:
+    - id: dsh-pojia
+      name: dsh-pojia
+      config:
+        tools: true
+        prompt: true
+        retryOnRefusal: true
+        maxRetries: 4
